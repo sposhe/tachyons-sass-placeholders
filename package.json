@@ -1,6 +1,6 @@
 {
   "name": "tachyons-sass-placeholders",
-  "version": "4.12.0",
+  "version": "1.0.0",
   "description": "A build of the Tachyons CSS toolkit solely as Sass placeholder selectors.",
   "main": "index.js",
   "files": [
@@ -13,6 +13,16 @@
     "type": "git",
     "url": "git+https://github.com/sposhe/tachyons-sass-placeholders.git"
   },
+  "keywords": [
+    "tachyons",
+    "css",
+    "sass",
+    "scss",
+    "functional css",
+    "design",
+    "responsive",
+    "performance"
+  ],
   "author": "Sean O'Shea",
   "license": "MIT",
   "bugs": {

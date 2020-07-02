@@ -23,12 +23,12 @@ gulp.task('placeholder', () => {
   .pipe( replace(/\,\n/gm, ', ') )
   .pipe( replace(/\"/gm, '\'') )
   .pipe( rename(options.rename) )
-  .pipe( gulp.dest('scss') )
+  .pipe( gulp.dest('./') )
 })
 
 gulp.task('index', () => {
   return gulp.src([
-    'scss/tachyons-sass-placeholders.scss'
+    './tachyons-sass-placeholders.scss'
   ])
   .pipe( replace(/\n/gm, ' ') )
   .pipe( replace(/\s+/gm, ' ') )
